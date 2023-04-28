@@ -7,6 +7,4 @@ import { TodosWebFeatureShellModule } from '@todos/todos-web-feature-shell';
   selector: 'todos-web-root',
   template: '<router-outlet></router-outlet>',
 })
-export class AppComponent {
-  title = 'todos-web';
-}
+export class AppComponent {}
