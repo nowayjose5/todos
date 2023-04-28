@@ -1,13 +1,12 @@
-import { Component } from "@angular/core";
-import { NxWelcomeComponent } from "./nx-welcome.component";
+import { Component } from '@angular/core';
+import { TodosWebFeatureShellModule } from '@todos/todos-web-feature-shell';
 
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent],
-  selector: "todos-root",
-  templateUrl: "./app.component.html",
-  styleUrls: ["./app.component.scss"],
+  imports: [TodosWebFeatureShellModule],
+  selector: 'todos-web-root',
+  template: '<router-outlet></router-outlet>',
 })
 export class AppComponent {
-  title = "todos-web";
+  title = 'todos-web';
 }
