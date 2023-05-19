@@ -15,9 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@todos/todos-web-feature-shell": [
-        "libs/todos-web-feature-shell/src/index.ts"
-      ]
+      "@todos/todos-web/shell": ["libs/todos-web/shell/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

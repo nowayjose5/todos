@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { TodosWebFeatureShellModule } from '@todos/todos-web-feature-shell';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   standalone: true,
-  imports: [TodosWebFeatureShellModule],
+  imports: [RouterOutlet],
   selector: 'todos-web-root',
   template: '<router-outlet></router-outlet>',
 })
