@@ -3,3 +3,5 @@
 /coverage
 .angular
 .vscode
+.nx
+pnpm-lock.yaml
